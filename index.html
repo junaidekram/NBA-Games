@@ -3,13 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <title>CodePen - A Pen by junaidekram</title>
-  
+  <link rel="stylesheet" href="colorchoice.css">
+  <script src="maincode.js"></script>
 
 </head>
 <body>
-<!-- partial:index.partial.html -->
-
-<!-- partial -->
-  
+  <div>
+    <label for="WhichTeam"></label>
+    <select id="guest" name="Guest Team">
+      <option value="100">Guest Team</option>
+      <option value="0">Golden State Warriors</option>
+      <option value="1">Pheonix Suns</option>
+      <option value="2">L.A. Clippers</option>
+      <option value="3">Los Angeles Lakers</option>
+      <option value="4">Denver Nuggets</option>
+      <option value="5">Dallas Mavericks</option>
+      <option value="6">Houston Rockets</option>
+      <option value="7">San Antonio Spurs</option>
+      <option value="8">Oklahoma City Thunder</option>
+      <option value="9">Minnesota Timberwolves</option>
+      <option value="10">Portland Trailblazers</option>
+      <option value="11">Sacramento Kings</option>
+      <option value="12">Memphis Grizzlies</option>
+      <option value="13">Chicago Bulls</option>
+      <option value="14">Milwaukee Bucks</option>
+      <option value="15">Charlotte Hornets</option>
+      <option value="16">Orlando Magic</option>
+      <option value="17">Miami Heat</option>
+      <option value="18">Brooklyn Nets</option>
+      <option value="19">New York Knicks</option>
+      <option value="20">Atlanta Hawks</option>
+      <option value="21">Utah Jazz</option>
+      <option value="22">Cleveland Caviliers</option>
+      <option value="23">Detroit Pistons</option>
+      <option value="24">Toronto Raptors</option>
+      <option value="25">Washington Wizards</option>
+      <option value="26">Boston Celtics</option>
+      <option value="27">Indiana Pacers</option>
+      <option value="28">New Orleans Pelicans</option>
+      <option value="29">Philadelphia 76ers</option>
+    </select>
+    at
+    <select id="home1" name="Home Team">
+      <option value="110">Home Team</option>
+      <option value="0">Golden State Warriors</option>
+      <option value="1">Pheonix Suns</option>
+      <option value="2">L.A. Clippers</option>
+      <option value="3">Los Angeles Lakers</option>
+      <option value="4">Denver Nuggets</option>
+      <option value="5">Dallas Mavericks</option>
+      <option value="6">Houston Rockets</option>
+      <option value="7">San Antonio Spurs</option>
+      <option value="8">Oklahoma City Thunder</option>
+      <option value="9">Minnesota Timberwolves</option>
+      <option value="10">Portland Trailblazers</option>
+      <option value="11">Sacramento Kings</option>
+      <option value="12">Memphis Grizzlies</option>
+      <option value="13">Chicago Bulls</option>
+      <option value="14">Milwaukee Bucks</option>
+      <option value="15">Charlotte Hornets</option>
+      <option value="16">Orlando Magic</option>
+      <option value="17">Miami Heat</option>
+      <option value="18">Brooklyn Nets</option>
+      <option value="19">New York Knicks</option>
+      <option value="20">Atlanta Hawks</option>
+      <option value="21">Utah Jazz</option>
+      <option value="22">Cleveland Caviliers</option>
+      <option value="23">Detroit Pistons</option>
+      <option value="24">Toronto Raptors</option>
+      <option value="25">Washington Wizards</option>
+      <option value="26">Boston Celtics</option>
+      <option value="27">Indiana Pacers</option>
+      <option value="28">New Orleans Pelicans</option>
+      <option value="29">Philadelphia 76ers</option>
+    </select>
+  </div>
+  <canvas id="game-area" width=400 height=400>
+  </canvas>
+  <div>
+    <button onclick="ShowResults()" id="results">See Results</button>
+  </div>
 </body>
 </html>
